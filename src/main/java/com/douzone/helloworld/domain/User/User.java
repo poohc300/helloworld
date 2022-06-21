@@ -12,7 +12,7 @@ public class User {
         this.id = UUID.randomUUID();
         this.username = username;
         this.password = password;
-        this .email = email;
+        this.email = email;
     }
 
     public void getId(UUID id){
